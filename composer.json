@@ -1,0 +1,23 @@
+{
+    "name": "q-alliance/qsendgrid",
+    "minimum-stability": "dev",
+    "description": "Simple to use mailer, with Sendgrid in the background",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Vicko Franić",
+            "email": "vicko@q-alliance.com"
+        }
+    ],
+    "require": {
+        "sendgrid/sendgrid": "^5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "QAlliance\\": "src/"
+        }
+    }
+}
